@@ -1,6 +1,6 @@
-# flutter_clean_arch_cli 🏗️
+# flutter_clean_architecture_cli 🏗️
 
-[![pub version](https://img.shields.io/pub/v/flutter_clean_arch_cli.svg)](https://pub.dev/packages/flutter_clean_arch_cli)
+[![pub version](https://img.shields.io/pub/v/flutter_clean_architecture_cli.svg)](https://pub.dev/packages/flutter_clean_architecture_cli)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Dart SDK](https://img.shields.io/badge/Dart-%3E%3D3.0.0-blue)](https://dart.dev)
 
@@ -72,7 +72,7 @@ lib/features/{feature_name}/
 ## 🚀 Installation
 
 ```bash
-dart pub global activate flutter_clean_arch_cli
+dart pub global activate flutter_clean_architecture_cli
 ```
 
 Make sure your Dart pub cache `bin` folder is in your PATH:
@@ -318,4 +318,4 @@ Contributions are welcome! Please open an issue or submit a pull request on [Git
 
 ## 📄 License
 
-MIT © flutter_clean_arch_cli
+MIT © flutter_clean_architecture_cli

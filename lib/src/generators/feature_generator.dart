@@ -4,8 +4,8 @@
 import 'dart:io';
 import 'package:mason_logger/mason_logger.dart';
 import 'package:path/path.dart' as p;
-import 'package:flutter_clean_arch_cli/src/templates/feature_templates.dart';
-import 'package:flutter_clean_arch_cli/src/utils/string_utils.dart';
+import 'package:flutter_clean_architecture_cli/src/templates/feature_templates.dart';
+import 'package:flutter_clean_architecture_cli/src/utils/string_utils.dart';
 
 class FeatureGenerator {
   final String featureName;

@@ -4,7 +4,7 @@
 import 'dart:io';
 import 'package:mason_logger/mason_logger.dart';
 import 'package:path/path.dart' as p;
-import 'package:flutter_clean_arch_cli/src/templates/core_templates.dart';
+import 'package:flutter_clean_architecture_cli/src/templates/core_templates.dart';
 
 class CoreGenerator {
   final String projectName;

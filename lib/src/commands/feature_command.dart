@@ -3,7 +3,7 @@
 
 import 'package:args/args.dart';
 import 'package:mason_logger/mason_logger.dart';
-import 'package:flutter_clean_arch_cli/src/generators/feature_generator.dart';
+import 'package:flutter_clean_architecture_cli/src/generators/feature_generator.dart';
 
 class FeatureCommand {
   final Logger logger;

@@ -3,8 +3,8 @@
 
 import 'package:args/args.dart';
 import 'package:mason_logger/mason_logger.dart';
-import 'package:flutter_clean_arch_cli/src/generators/core_generator.dart';
-import 'package:flutter_clean_arch_cli/src/generators/structure_generator.dart';
+import 'package:flutter_clean_architecture_cli/src/generators/core_generator.dart';
+import 'package:flutter_clean_architecture_cli/src/generators/structure_generator.dart';
 
 class CreateCommand {
   final Logger logger;

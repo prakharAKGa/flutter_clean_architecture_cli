@@ -3,9 +3,9 @@
 
 import 'package:args/args.dart';
 import 'package:mason_logger/mason_logger.dart';
-import 'package:flutter_clean_arch_cli/src/commands/create_command.dart';
-import 'package:flutter_clean_arch_cli/src/commands/feature_command.dart';
-import 'package:flutter_clean_arch_cli/src/commands/version_command.dart';
+import 'package:flutter_clean_architecture_cli/src/commands/create_command.dart';
+import 'package:flutter_clean_architecture_cli/src/commands/feature_command.dart';
+import 'package:flutter_clean_architecture_cli/src/commands/version_command.dart';
 
 const cliVersion = '1.0.0';
 
