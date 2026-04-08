@@ -1,6 +1,6 @@
 name: flutter_clean_architecture_cli
 description: A powerful CLI tool to generate Flutter Clean Architecture with BLoC state management. Generate complete project structure in one command.
-version: 1.1.0
+version: 1.1.1
 homepage: https://github.com/prakharAKGa/flutter_clean_arch_cli
 repository: https://github.com/prakharAKGa/flutter_clean_arch_cli
 issue_tracker: https://github.com/prakharAKGa/flutter_clean_arch_cli/issues
@@ -10,7 +10,7 @@ environment:
 
 dependencies:
   args: ^2.7.0
-  mason_logger: ^0.3.5
+  mason_logger: ^0.2.16
   path: ^1.9.1
   yaml: ^3.1.3
 

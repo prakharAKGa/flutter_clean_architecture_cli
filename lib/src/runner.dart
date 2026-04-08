@@ -8,7 +8,7 @@ import 'package:flutter_clean_architecture_cli/src/commands/feature_command.dart
 import 'package:flutter_clean_architecture_cli/src/commands/version_command.dart';
 
 /// The current version of the CLI.
-const cliVersion = '1.1.0';
+const cliVersion = '1.1.1';
 
 /// The main entry point for the CLI runner.
 ///

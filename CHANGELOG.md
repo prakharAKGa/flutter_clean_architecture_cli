@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.1.1
+
+- **FIX**: Reverted `mason_logger` to `^0.2.16` for compatibility with Dart SDK < 3.5.0.
+
 ## 1.1.0
 
 - **FIX**: Improved argument parsing for CLI commands (`--name` and other flags are now correctly recognized).
