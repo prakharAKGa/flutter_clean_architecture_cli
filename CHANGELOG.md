@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.1.0
+
+- **FIX**: Improved argument parsing for CLI commands (`--name` and other flags are now correctly recognized).
+- **DOC**: Added `dartdoc` comments to public API elements for better documentation and package score.
+- **DOC**: Added `example/` directory with `README.md` and `main.dart` usage examples.
+- **CHORE**: Updated dependencies (`args`, `mason_logger`, `path`, `yaml`) to latest stable versions.
+- **CHORE**: Updated package homepage and repository URLs.
+
 ## 1.0.0
 
 - 🎉 Initial release

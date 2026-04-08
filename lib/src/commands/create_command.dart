@@ -11,20 +11,7 @@ class CreateCommand {
 
   CreateCommand({required this.logger});
 
-  Future<void> run(ArgResults command) async {
-    final parser = ArgParser()
-      ..addOption('name', abbr: 'n', help: 'The name of the Flutter project.')
-      ..addFlag('help', abbr: 'h', negatable: false);
-
-    ArgResults args;
-    try {
-      args = parser.parse(command.arguments);
-    } catch (e) {
-      logger.err('Error: $e');
-      _printUsage();
-      return;
-    }
-
+  Future<void> run(ArgResults args) async {
     if (args['help'] as bool) {
       _printUsage();
       return;

@@ -1,13 +1,22 @@
-# Dart/Pub
+# Files and directories created by pub
 .dart_tool/
 .packages
+.pub/
 build/
 
-# IDE
+# Generated documentation
+doc/api/
+
+# IDE files
 .idea/
 .vscode/
 *.iml
+*.ipr
+*.iws
 
-# OS
+# OS files
 .DS_Store
 Thumbs.db
+
+# Other
+pubspec.lock

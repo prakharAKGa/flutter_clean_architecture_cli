@@ -7,14 +7,28 @@ import 'package:flutter_clean_architecture_cli/src/commands/create_command.dart'
 import 'package:flutter_clean_architecture_cli/src/commands/feature_command.dart';
 import 'package:flutter_clean_architecture_cli/src/commands/version_command.dart';
 
-const cliVersion = '1.0.0';
+/// The current version of the CLI.
+const cliVersion = '1.1.0';
 
+/// The main entry point for the CLI runner.
+///
+/// Parses the [arguments] and executes the corresponding commands.
 Future<void> run(List<String> arguments) async {
   final logger = Logger();
 
   final parser = ArgParser()
-    ..addCommand('create')
-    ..addCommand('feature')
+    ..addCommand(
+      'create',
+      ArgParser()
+        ..addOption('name', abbr: 'n', help: 'The name of the Flutter project.')
+        ..addFlag('help', abbr: 'h', negatable: false),
+    )
+    ..addCommand(
+      'feature',
+      ArgParser()
+        ..addOption('name', abbr: 'n', help: 'The name of the feature.')
+        ..addFlag('help', abbr: 'h', negatable: false),
+    )
     ..addCommand('version')
     ..addFlag('help', abbr: 'h', negatable: false, help: 'Show usage help.')
     ..addFlag('version', abbr: 'v', negatable: false, help: 'Show CLI version.');

@@ -312,7 +312,7 @@ Every generated file includes:
 
 ## 🤝 Contributing
 
-Contributions are welcome! Please open an issue or submit a pull request on [GitHub](https://github.com/yourusername/flutter_clean_arch_cli).
+Contributions are welcome! Please open an issue or submit a pull request on [GitHub](https://github.com/prakharAKGa/flutter_clean_architecture_cli.git).
 
 ---
 

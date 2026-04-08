@@ -4,13 +4,15 @@
 import 'package:args/args.dart';
 import 'package:mason_logger/mason_logger.dart';
 
+import 'package:flutter_clean_architecture_cli/src/runner.dart';
+
 class VersionCommand {
   final Logger logger;
   VersionCommand({required this.logger});
 
   Future<void> run(ArgResults command) async {
     logger.info('''
-flutter_clean_arch_cli v1.0.0
+flutter_clean_arch_cli v$cliVersion
 Flutter Clean Architecture Generator CLI
 https://pub.dev/packages/flutter_clean_arch_cli
 ''');
